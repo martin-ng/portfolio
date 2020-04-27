@@ -2220,8 +2220,7 @@ ul.actions li:first-child {
     width: 100%;
     display: inline-block;
     white-space: nowrap;
-    /* padding-left: -; */
-    margin-left: -5px;
+    padding-right: 50px;
   }
 }
 
