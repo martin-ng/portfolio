@@ -362,9 +362,9 @@ footer > p {
   width: 1200px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 680px) {
   .container {
-    width: 100%;
+    width: 50%;
   }
 }
 
