@@ -362,12 +362,6 @@ footer > p {
   width: 1200px;
 }
 
-@media screen and (max-width: 1280px) {
-  .container {
-    width: 130%;
-  }
-}
-
 .container.medium {
   width: 900px;
 }
@@ -2224,6 +2218,13 @@ ul.actions li:first-child {
 #nav li {
   display: inline-block;
   padding-left: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  #nav li {
+    display: inline-block;
+    width: 120%;
+  }
 }
 
 #nav a {
