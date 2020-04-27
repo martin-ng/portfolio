@@ -2369,6 +2369,10 @@ body > article {
 
   /* Articles */
 
+  #portfolio {
+    padding: 8em 0;
+  }
+
   #top {
     padding: 8em 0;
   }
@@ -2623,6 +2627,14 @@ body > article {
   position: relative;
 }
 
+@media screen and (max-width: 1280px) {
+  .portfolio-boxes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+}
+
 .portfolio-img {
   width: 40%;
   min-width: 200px;
@@ -2644,7 +2656,21 @@ body > article {
   position: relative;
 }
 
+@media screen and (max-width: 1280px) {
+  .portfolio-desc {
+    width: 100%;
+    margin-left: 0px;
+    background: #fff;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),
+      0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
 .project-desc {
+  /* margin: 0 auto;
+  height: 0 auto;
+  max-width: calc(100% - 50px); */
+  /* width: 1200px; */
   display: flex;
   height: 100px;
   flex-direction: column;
@@ -2666,7 +2692,6 @@ body > article {
 .project-p {
   font-size: 1.05em;
   text-align: left;
-  /* position: absolute; */
 }
 
 .p-footer {
@@ -2675,8 +2700,6 @@ body > article {
   position: left;
   bottom: 0;
   margin-bottom: 5px;
-  /* padding-bottom: 30px; */
-  /* padding-top: 25px; */
 }
 
 .button-row {
@@ -2694,7 +2717,6 @@ body > article {
   padding-left: 15px;
   margin-left: 5px;
   margin-bottom: 0px;
-  /* border: 1px solid black; */
   border-radius: 15px;
   background-color: #43b3e0;
   color: #fff;
@@ -2744,6 +2766,19 @@ anchors are inline so you need ot make them block to go full width
   overflow: hidden;
   justify-content: center;
 }
+
+@media screen and (max-width: 1280px) {
+  .slidershow {
+    width: 100%;
+    /* min-width: 200px;
+    margin-right: 0px;
+    width: 800px;
+    height: 500px; */
+    overflow: hidden;
+    justify-content: center;
+  }
+}
+
 .middle {
   position: bottom;
   top: 50%;
